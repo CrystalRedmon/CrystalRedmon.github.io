@@ -1,28 +1,54 @@
 body{
   background-color: rosybrown;
+  background-image: url("https://freepngimg.com/thumb/wave/110541-white-wave-free-hq-image.png");
   font-family: helvetica; 
   color: seashell;
   border: 5px double seashell;
   border-radius: 15px;
   margin: 10% 10%;
-  padding: 15px;  
+  padding: 15px;
+   
 }
 
 .title{
-  background-color: red, .10;
   text-align: center;
+  font-family: papyrus;
+  font-size: 20px
 }
 
-.expheader, .eduheader {
+.summary{
+  text-align: justify;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.summary:hover{
+  word-wrap: break-word;
+  overflow: visible;
+  white-space: normal;
+}
+
+
+.expheader {
   text-align: center;
   text-transform: uppercase;
-  border-bottom: 3px solid;
-  background-color: rgba(0, 0, 0, .10);   
+  outline: ridge 5px;
+  border-bottom: 3px solid
+  background-color: rgba(0, 0, 0, .10);
+    
 }
 
-div img{
+
+div img, .H{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   width: 10%; 
-  transition: width 3s;
+  transition: width 2s;
+  border-radius: 25px;
+  opacity: 25%
 }
 
 img:hover{
