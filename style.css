@@ -1,1 +1,23 @@
+body{
+  background-color: rosybrown;
+  font-family: helvetica; 
+  color: seashell;
+  border: 5px double seashell;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;  
+}
 
+.title{
+  background-color: red, .10;
+  text-align: center;
+  border-bottom: 2px;
+}
+
+.expheader, .eduheader {
+  text-align: center;
+  border-bottom: 5px solid
+}
+
+.positionhead1, .positionhead2{
+}
